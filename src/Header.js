@@ -28,7 +28,7 @@ function Header() {
         <HeaderOption Icon={SupervisorAccountIcon} title="My Network" />
         <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
         <HeaderOption Icon={ChatIcon} title="Messaging" />
-        <HeaderOption Icon={BusinessCenterIcon} title="Notifications" />
+        <HeaderOption Icon={NotificationsIcon} title="Notifications" />
         <HeaderOption
           avatar="https://pbs.twimg.com/profile_images/1400072430651990019/CXiDyfBf_400x400.jpg"
           title="me"
