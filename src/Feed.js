@@ -2,6 +2,7 @@ import React from "react";
 import "./Feed.css";
 import CreateIcon from "@material-ui/icons/Create";
 import InputOption from "./InputOption";
+import Post from "./Post";
 import ImageIcon from "@material-ui/icons/Image";
 import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
 import EventNoteIcon from "@material-ui/icons/EventNote";
@@ -29,6 +30,13 @@ function Feed() {
           />
         </div>
       </div>
+
+      {/* Posts */}
+      <Post
+        name="Ratan Hegde"
+        description="this is a test"
+        message="This is a test message"
+      />
     </div>
   );
 }
